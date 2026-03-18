@@ -1,0 +1,7 @@
+/*#AboutMe p:nth-of-type(odd){
+    font-weight:bold;
+}*/
+#AboutMe > p:nth-of-type(odd){
+    font-weight:bold;
+}
+

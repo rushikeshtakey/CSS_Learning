@@ -1,0 +1,7 @@
+nav a:link{
+    color:lime
+}
+
+nav a:visited{
+    color:tomato
+}

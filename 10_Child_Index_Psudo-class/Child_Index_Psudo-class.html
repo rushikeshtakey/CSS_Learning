@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Child-Indexed Pseudo-Classes Exercise</title>
     <style>
-        /* Replace * with your child-indexed pseudo-class selector */
-        article p:nth-child(4)
-        {
+        /* You need to style every third p element within article elements so that their text appears italicized. 
+        Currently, all elements are styled using a universal selector (*). Replace this with a 
+        child-indexed pseudo-class selector that targets only the third p elements within article elements.
+        Note that the h2 is also a child of article.*/
+        :nth-child(3 of article p){
             font-style: italic;
         }
     </style>
